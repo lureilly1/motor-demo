@@ -19,13 +19,12 @@ const useStyles = makeStyles((theme) => ({
 const classes = useStyles();
 
   return (
-     <Grid container spacing={3}>
+     <Grid container spacing={3} >
         <Grid item xs={12}>
           <HeaderSection />
         </Grid>
         <Grid item xs={12}>
           <Paper className={classes.paper}>
-            
           </Paper>
         </Grid>
         <Grid item xs={6}>
