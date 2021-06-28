@@ -1,22 +1,9 @@
 import Grid from '@material-ui/core/Grid';
-import { makeStyles } from '@material-ui/core/styles';
 import HeaderSection from './components/HeaderSection'
 import FilterSection from './components/FilterSection'
 import { CurrentSelections, Bar } from '@motor-js/core';
 
 const App = () => {
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  paper: {
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  },
-}));
-
 
   return (
      <Grid container spacing={2}>
