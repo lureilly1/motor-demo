@@ -17,7 +17,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const classes = useStyles();
 
   return (
      <Grid container spacing={2}>
